@@ -15,7 +15,7 @@ import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 
 export default function Navbar() {
   return (
-    <header>
+    <header className="sticky top-0 bg-accent z-50">
       <nav className="md:flex hidden justify-between items-center py-2 px-7">
         <ul className="flex items-center gap-10">
           <li>

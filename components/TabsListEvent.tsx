@@ -40,7 +40,7 @@ export default function TabsListEvent() {
           <CardContent className="space-y-2"></CardContent>
           <CardFooter>
             <Dialog>
-              <DialogTrigger className="w-full">
+              <DialogTrigger className="w-full" asChild>
                 <Button className="w-full">View Services</Button>
               </DialogTrigger>
               <DialogContent>
@@ -71,7 +71,7 @@ export default function TabsListEvent() {
           <CardContent className="space-y-2"></CardContent>
           <CardFooter>
             <Dialog>
-              <DialogTrigger className="w-full">
+              <DialogTrigger className="w-full" asChild>
                 <Button className="w-full">View Visibilities</Button>
               </DialogTrigger>
               <DialogContent>
