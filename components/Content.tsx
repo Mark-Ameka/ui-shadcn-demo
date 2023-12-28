@@ -23,12 +23,12 @@ export default function Content() {
         <p className="mt-16 indent-10 text-center text-md font-light">
           Welcome to our Event Management System, where seamless organization
           meets unforgettable experiences! Our platform is designed to
-          effortlessly plan and execute your events, whether it's a corporate
-          conference, wedding celebration, or a special milestone. With
-          user-friendly features, you can easily create and customize events,
-          manage guest lists, send invitations, and track RSVPs. Our system
-          streamlines the entire event planning process, saving you time and
-          ensuring every detail is perfect.
+          effortlessly plan and execute your events, whether it&apos;s a
+          corporate conference, wedding celebration, or a special milestone.
+          With user-friendly features, you can easily create and customize
+          events, manage guest lists, send invitations, and track RSVPs. Our
+          system streamlines the entire event planning process, saving you time
+          and ensuring every detail is perfect.
         </p>
         <div className="flex justify-center items-center my-5">
           <Button variant="secondary" size="lg">

@@ -21,8 +21,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <script src="https://unpkg.com/aos@next/dist/aos.js" />
-        <Script src="/aos.js" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js" async />
+        <Script src="/aos.js" defer />
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
